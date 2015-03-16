@@ -1,10 +1,10 @@
 freshstart.io
 =============
 
-Starting of fresh
+Starting off fresh
 
 ## Initial Application list: (wip)
-Please provide a link to the application at a minimum, a breif use summary is welcomed.
+Please provide a link to the application at a minimum, a brief use summary is welcomed.
 *TODO: Add summaries for each app.*
 
 
