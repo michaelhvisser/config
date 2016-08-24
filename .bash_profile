@@ -2,8 +2,6 @@ MYSQL=/usr/local/mysql/bin
 export PATH=$PATH:$MYSQL
 
 export PATH="/usr/local/sbin:$PATH"
-export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
-source ~/.rvm/scripts/rvm
 
 # Aliases
 alias rs="rails s"
@@ -29,3 +27,7 @@ parse_git_branch() {
 
 # Custom bash prompt
 export PS1="\u@\h\[$(tput bold)\] \[$(tput setaf 6)\]\w\[$(tput setaf 3)\]\$(parse_git_branch) \[$(tput sgr0)\]"
+
+eval "$(rbenv init -)"
+source ~/git-completion.bash
+
