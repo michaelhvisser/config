@@ -24,22 +24,22 @@ It also includes a lightweight list of the applications I depend on to survive a
 - Load up the Ocean theme from <https://github.com/jonathansimmons/ocean-terminal>
 - Set default monospace font to [Source Code Pro](https://github.com/adobe-fonts/source-code-pro/releases)
 - Clone `https://github.com/jonathansimmons/config`
-  - Create a symlink to you `.bash_profile`
+  - Create a symlink to your `.bash_profile`
   ```
       $ cd ~
       $ ln -s <path/to/config/repo/.bash_profile>
     ```
-  - Create a symlink to you `.gitconfig`
+  - Create a symlink to your `.gitconfig`
   ```
       $ cd ~
       $ ln -s <path/to/config/repo/.gitconfig>
     ```
-  - Create a symlink to you `.gitignore`
+  - Create a symlink to your `.gitignore`
   ```
       $ cd ~
       $ ln -s <path/to/config/repo/.gitignore>
     ```
-  - Create a symlink to you `.powconfig`
+  - Create a symlink to your `.powconfig`
   ```
       $ cd ~
       $ ln -s <path/to/config/repo/.powconfig>
@@ -53,7 +53,6 @@ It also includes a lightweight list of the applications I depend on to survive a
 
 - Download [SublimeText 3](http://www.sublimetext.com/3)
   - Install [Spacegray Theme](http://kkga.github.io/spacegray/)
-  - Spacegray color scheme(Monokai - Spacegray)
   - Use [Source Code Pro (monospace font)](https://github.com/adobe-fonts/source-code-pro/releases)
   - Add [Package Control](https://sublime.wbond.net/)
   - Install favorite packages
