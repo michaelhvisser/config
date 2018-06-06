@@ -1,6 +1,5 @@
 MYSQL=/usr/local/mysql/bin
 export PATH=$PATH:$MYSQL
-
 export PATH="/usr/local/sbin:$PATH"
 
 # Aliases
@@ -10,22 +9,19 @@ alias be="bundle exec"
 alias rt="RAILS_ENV=test bundle exec rake test"
 alias s="subl"
 alias a="atom"
-
-alias wm="cd ~/git/watchman/monitoringserver"
-alias wmp="cd ~/git/whatsmypart/wmp"
-
 alias os="cd ~/git/open-source"
 alias gw="cd ~/git/gateway"
 alias sh="defaults write com.apple.finder AppleShowAllFiles TRUE;killall Finder"
 alias hh="defaults write com.apple.finder AppleShowAllFiles FALSE;killall Finder"
 
-# Get the Git branch
-parse_git_branch() {
-  git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
-}
 
 # Custom bash prompt
-export PS1="\u@\h\[$(tput bold)\] \[$(tput setaf 6)\]\w\[$(tput setaf 3)\]\$(parse_git_branch) \[$(tput sgr0)\]"
+if [ -f $(brew --prefix)/etc/bash_completion ]; then
+    . $(brew --prefix)/etc/bash_completion
+fi
+
+GIT_PS1_SHOWDIRTYSTATE=true
+export PS1="\u@\h\[$(tput bold)\] \[$(tput setaf 6)\]\w\[$(tput setaf 3)\]\$(__git_ps1) \[$(tput sgr0)\]"
 
 # rbenv initialization
 eval "$(rbenv init -)"

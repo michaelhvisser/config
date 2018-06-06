@@ -11,6 +11,7 @@ It also includes a lightweight list of the applications I depend on to survive a
 | `.bash-profile` | Customizes the Terminal.app prompt and echoes the currently checked out Git branch. |
 | `.gitconfig` | Global Git configuration to specify my name and email, shortcuts, colors, and more. |
 | `.gitignore` | The git ignore file I use. |
+| `.gitexcludes` | Quick fix to always ignore DS_Store |
 | `.powconfig` | My pow configuration file. |
 
 ## Checklist
@@ -23,27 +24,34 @@ It also includes a lightweight list of the applications I depend on to survive a
 ### 2. Prep Terminal.app
 - Load up the Ocean theme from <https://github.com/jonathansimmons/ocean-terminal>
 - Set default monospace font to [Source Code Pro](https://github.com/adobe-fonts/source-code-pro/releases)
+- Install [homebrew](#terminal)
 - Clone `https://github.com/jonathansimmons/config`
   - Create a symlink to your `.bash_profile`
-  ```
+    ```
       $ cd ~
       $ ln -s <path/to/config/repo/.bash_profile>
     ```
   - Create a symlink to your `.gitconfig`
-  ```
+    ```
       $ cd ~
       $ ln -s <path/to/config/repo/.gitconfig>
     ```
   - Create a symlink to your `.gitignore`
-  ```
+    ```
       $ cd ~
       $ ln -s <path/to/config/repo/.gitignore>
     ```
+  - Create a symlink to your `.gitignore`
+    ```
+      $ cd ~
+      $ ln -s <path/to/config/repo/.gitexcludes>
+    ```
   - Create a symlink to your `.powconfig`
-  ```
+    ```
       $ cd ~
       $ ln -s <path/to/config/repo/.powconfig>
     ```
+- Install git-completion
 ### 3. Secure Git(Hub) access
 
 - [Generate new SSH key](https://help.github.com/articles/generating-ssh-keys/)
@@ -64,7 +72,6 @@ It also includes a lightweight list of the applications I depend on to survive a
     - [SublimeERB](https://github.com/eddorre/SublimeERB)
 
 ### 5. Setup Ruby
-
 - Install rbenv via Homebrew: `brew install rbenv`.
 - Download a version of Ruby via rbenv (e.g., `rbenv install 2.2.3`). See <https://gorails.com/setup/osx/10.11-el-capitan>.
 - Make it the global version of Ruby: `rbenv global 2.2.3`.
@@ -93,16 +100,14 @@ The following is a list of apps lightly categorized that that I've found useful 
   * [Spotify](http://www.spotify.com)
 
 #### Productivity
+  * [AppZapper](https://appzapper.com)
   * [Alfred](https://www.alfredapp.com/)
   * [1Password](https://agilebits.com/onepassword/)
   * [PTHPasteboard](http://pth.com/products/pthpasteboard/)
   * [Divvy](https://mizage.com/divvy/)
   * [Fantastical](https://flexibits.com/fantastical)
-  • [Flux](https://justgetflux.com/)
-  * [Trailer](https://github.com/ptsochantaris/trailer)
   * [AppZapper](http://www.appzapper.com/)
   * [Text Expander](https://smilesoftware.com/textexpander)
-  * [ScreenHero](http://screenhero.com)
 
 #### Developer
   * [Paw](https://luckymarmot.com/paw)
@@ -112,12 +117,13 @@ The following is a list of apps lightly categorized that that I've found useful 
   * [Tower](http://www.git-tower.com/)
 
 #### Terminal
-  * [Homebrew](http://brew.sh)
+  * [Homebrew](http://brew.sh) (`/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`)
   * mysql `brew install mysql`
   * postgres `brew install postgres`
+  * [apple developer downloads](https://developer.apple.com/download/more/)
 
 #### Database Management
-  * [Sequal Pro](http://www.sequelpro.com/)
+  * [Sequel Pro](http://www.sequelpro.com/)
   * [Postico](https://eggerapps.at/postico/)
   * [Postgres.app](http://postgresapp.com/) <small> this is an alternative to
 using brew for postgres management.</small>
