@@ -85,8 +85,7 @@ The following is a list of apps lightly categorized that that I've found useful 
   * [Slack](https://slack.com/)
 
 #### Email
-  * Apple Mail <small>Has its caveat but is out of the box </small>
-  * [Postbox](http://postbox-inc.com/) (if you don't need exchange support)
+  * Airmail 
 
 #### File Storage
   * [Dropbox](http://dropbox.com)
@@ -96,18 +95,10 @@ The following is a list of apps lightly categorized that that I've found useful 
   * Time Machine
 
 #### Personal
-  * [Tweetbot](http://tapbots.com/tweetbot/mac/)
-  * [Spotify](http://www.spotify.com)
 
 #### Productivity
-  * [AppZapper](https://appzapper.com)
-  * [Alfred](https://www.alfredapp.com/)
   * [1Password](https://agilebits.com/onepassword/)
-  * [PTHPasteboard](http://pth.com/products/pthpasteboard/)
-  * [Divvy](https://mizage.com/divvy/)
-  * [Fantastical](https://flexibits.com/fantastical)
   * [AppZapper](http://www.appzapper.com/)
-  * [Text Expander](https://smilesoftware.com/textexpander)
 
 #### Developer
   * [Paw](https://luckymarmot.com/paw)
@@ -115,6 +106,7 @@ The following is a list of apps lightly categorized that that I've found useful 
   vanilla native rest client</small>
   * [Transmit](http://panic.com/transmit/)
   * [Tower](http://www.git-tower.com/)
+  * [Postman] (https://www.getpostman.com/)
 
 #### Terminal
   * [Homebrew](http://brew.sh) (`/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`)
@@ -123,8 +115,6 @@ The following is a list of apps lightly categorized that that I've found useful 
   * [apple developer downloads](https://developer.apple.com/download/more/)
 
 #### Database Management
-  * [Sequel Pro](http://www.sequelpro.com/)
-  * [Postico](https://eggerapps.at/postico/)
   * [Postgres.app](http://postgresapp.com/) <small> this is an alternative to
 using brew for postgres management.</small>
 
