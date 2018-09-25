@@ -22,7 +22,7 @@ It also includes a lightweight list of the applications I depend on to survive a
 - Download and install Xcode Command Line Tools from <https://developer.apple.com/downloads/>.
 
 ### 2. Prep Terminal.app
-- Load up the Ocean theme from <https://github.com/jonathansimmons/ocean-terminal>
+- Load terminal theme from https://github.com/michaelhvisser/macos-terminal-themes/
 - Set default monospace font to [Source Code Pro](https://github.com/adobe-fonts/source-code-pro/releases)
 - Install [homebrew](#terminal)
 - Clone `https://github.com/jonathansimmons/config`
