@@ -16,15 +16,10 @@ It also includes a lightweight list of the applications I depend on to survive a
 
 ## Checklist
 
-### 1. Prep OS X
-
-- Download and install latest version of Xcode from the Mac App Store.
-- Download and install Xcode Command Line Tools from <https://developer.apple.com/downloads/>.
-
-### 2. Prep Terminal.app
+### 1. Prep Terminal.app
 - Load terminal theme from https://github.com/michaelhvisser/macos-terminal-themes/
 - Set default monospace font to [Source Code Pro](https://github.com/adobe-fonts/source-code-pro/releases)
-- Install [homebrew](#terminal)
+- Install Homebrew - /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 - Clone `https://github.com/jonathansimmons/config`
   - Create a symlink to your `.bash_profile`
     ```
@@ -105,5 +100,4 @@ The following is a list of apps lightly categorized that that I've found useful 
   * [Postgres.app](http://postgresapp.com/) <small> this is an alternative to
 using brew for postgres management.</small>
   * [Postgres Viewer](https://www.postgresql.org)
-  * [mySQL workbenc](https://www.mysql.com/products/workbench/)
-  *
+  * [mySQL workbench](https://www.mysql.com/products/workbench/)
