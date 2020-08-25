@@ -57,19 +57,12 @@ It also includes a lightweight list of the applications I depend on to survive a
 - [Generate new SSH key](https://help.github.com/articles/generating-ssh-keys/)
 - [Generate an access token](https://help.github.com/articles/creating-an-access-token-for-command-line-use/) for Terminal to auth your GitHub account when 2FA is enabled.
 
-### 4. Setup SublimeText
+### 4. Setup VSCode
+Download VSCode
+Install Python Tools
 
-- Download [SublimeText 3](http://www.sublimetext.com/3)
-  - Install [Spacegray Theme](http://kkga.github.io/spacegray/)
-  - Use [Source Code Pro (monospace font)](https://github.com/adobe-fonts/source-code-pro/releases)
-  - Add [Package Control](https://sublime.wbond.net/)
-  - Install favorite packages
-    - [Better CoffeeScript](https://packagecontrol.io/packages/Better%20CoffeeScript)
-    - [Color Highlighter](https://packagecontrol.io/packages/Color%20Highlighter)
-    - [Emmet](https://packagecontrol.io/packages/Emmet)
-    - [ERB Snippets](https://github.com/matthewrobertson/ERB-Sublime-Snippets)
-    - [Haml](https://packagecontrol.io/packages/Haml)
-    - [SublimeERB](https://github.com/eddorre/SublimeERB)
+
+
 
 ### 5. Setup Ruby
 - Install rbenv via Homebrew: `brew install rbenv`.
@@ -98,14 +91,8 @@ The following is a list of apps lightly categorized that that I've found useful 
 
 #### Productivity
   * [1Password](https://agilebits.com/onepassword/)
-  * [AppZapper](http://www.appzapper.com/)
 
 #### Developer
-  * [Paw](https://luckymarmot.com/paw)
-    * [RESTed](http://www.helloresolven.com/portfolio/rested/) <small>A more
-  vanilla native rest client</small>
-  * [Transmit](http://panic.com/transmit/)
-  * [Tower](http://www.git-tower.com/)
   * [Postman] (https://www.getpostman.com/)
 
 #### Terminal
@@ -117,7 +104,6 @@ The following is a list of apps lightly categorized that that I've found useful 
 #### Database Management
   * [Postgres.app](http://postgresapp.com/) <small> this is an alternative to
 using brew for postgres management.</small>
-
-#### Utility:
-  * [Fluid](http://fluidapp.com/)
-  * [WhatSize](https://itunes.apple.com/us/app/whatsize/id413702125?mt=12)
+  * [Postgres Viewer](https://www.postgresql.org)
+  * [mySQL workbenc](https://www.mysql.com/products/workbench/)
+  *
