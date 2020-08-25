@@ -19,7 +19,9 @@ It also includes a lightweight list of the applications I depend on to survive a
 ### 1. Prep Terminal.app
 - Load terminal theme from https://github.com/michaelhvisser/macos-terminal-themes/
 - Set default monospace font to [Source Code Pro](https://github.com/adobe-fonts/source-code-pro/releases)
-- Install Homebrew - /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+- Install [Homebrew](#Terminal)
+
+https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 - Clone `https://github.com/jonathansimmons/config`
   - Create a symlink to your `.bash_profile`
     ```
@@ -47,26 +49,23 @@ It also includes a lightweight list of the applications I depend on to survive a
       $ ln -s <path/to/config/repo/.powconfig>
     ```
 - Install git-completion
-### 3. Secure Git(Hub) access
+### 2. Secure Git(Hub) access
 
 - [Generate new SSH key](https://help.github.com/articles/generating-ssh-keys/)
 - [Generate an access token](https://help.github.com/articles/creating-an-access-token-for-command-line-use/) for Terminal to auth your GitHub account when 2FA is enabled.
 
-### 4. Setup VSCode
+### 3. Setup VSCode
 Download VSCode
 Install Python Tools
 
-
-
-
-### 5. Setup Ruby
+### 4. Setup Ruby
 - Install rbenv via Homebrew: `brew install rbenv`.
 - Download a version of Ruby via rbenv (e.g., `rbenv install 2.2.3`). See <https://gorails.com/setup/osx/10.11-el-capitan>.
 - Make it the global version of Ruby: `rbenv global 2.2.3`.
 
 *Installing and managing Ruby with rbenv allows us to specify versions of Ruby on a per-project basis. It also means we can avoid running sudo commands for installing gems and more as it's not affecting OS X's system Ruby.*
 
-### 6. Additional dependencies
+### 5. Additional dependencies
 The following is a list of apps lightly categorized that that I've found useful over the last 10 years using a mac.
 
 #### Communication
