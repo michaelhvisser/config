@@ -49,6 +49,7 @@ https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
       $ ln -s <path/to/config/repo/.powconfig>
     ```
 - Install git-completion
+
 ### 2. Secure Git(Hub) access
 
 - [Generate new SSH key](https://help.github.com/articles/generating-ssh-keys/)
@@ -93,7 +94,42 @@ The following is a list of apps lightly categorized that that I've found useful 
   * [Homebrew](http://brew.sh) (`/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`)
   * mysql `brew install mysql`
   * postgres `brew install postgres`
-  * [apple developer downloads](https://developer.apple.com/download/more/)
+  
+  * Installing ZSH (and the best add ons)
+      Change shell to zsh
+      chsh -s /bin/zsh
+
+      Restart terminal, this will make the shell change take effect. To make sure you are running the right shell you can run the command: echo “$SHELL”
+      It should now say /bin/zsh
+
+      Install Oh My Zsh
+      sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+      Restart terminal
+      Install Spaceship (and plugins)
+      
+      git clone https://github.com/denysdovhan/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt"
+
+      ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
+
+      git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+
+      git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+
+      Once you have those all ran, you will need to edit the .zshrc (located in ~/.zshrc) Feel free to nano it up.
+
+      Change: 
+      ZSH_THEME:”spaceship”
+
+      plugins:(zsh-autosuggestions zsh-syntax-highlighting)
+      For the plugins, if there is already one there (I believe git will be there) just add a space and add the next one.
+
+      Save .zshrc and then restart your terminal!
+
+      Optional Font:
+      FiraCode is that amazing font I showed you. Here is the download link:
+      [Download v1.207](https://github.com/tonsky/FiraCode/releases/download/1.207/FiraCode_1.207.zip)
+      You can just install this on your Mac, then change the font your terminal uses in its preferences.
 
 #### Database Management
   * [Postgres.app](http://postgresapp.com/) <small> this is an alternative to
