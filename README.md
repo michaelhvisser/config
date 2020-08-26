@@ -69,7 +69,7 @@ Install Python Tools
 ### 5. Setup Python
   - Install python3 via Homebrew: `brew install python3`.
 
-### 5. Additional dependencies
+### 6. Additional dependencies
 The following is a list of apps lightly categorized that that I've found useful over the last 10 years using a mac.
 
 #### Communication
@@ -133,6 +133,9 @@ The following is a list of apps lightly categorized that that I've found useful 
       FiraCode is that amazing font I showed you. Here is the download link:
       [Download v1.207](https://github.com/tonsky/FiraCode/releases/download/1.207/FiraCode_1.207.zip)
       You can just install this on your Mac, then change the font your terminal uses in its preferences.
+      
+  * Create Scripts Folder
+  * Add folder to $PATH via ~/.zshrc `export PATH=$PATH:/usr/local/share/scripts`
 
 #### Database Management
   * [Postgres.app](http://postgresapp.com/) <small> this is an alternative to
