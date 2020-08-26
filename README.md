@@ -66,6 +66,9 @@ Install Python Tools
 
 *Installing and managing Ruby with rbenv allows us to specify versions of Ruby on a per-project basis. It also means we can avoid running sudo commands for installing gems and more as it's not affecting OS X's system Ruby.*
 
+### 5. Setup Python
+  - Install python3 via Homebrew: `brew install python3`.
+
 ### 5. Additional dependencies
 The following is a list of apps lightly categorized that that I've found useful over the last 10 years using a mac.
 
