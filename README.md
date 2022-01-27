@@ -73,6 +73,9 @@ Install Python Tools
 ### 6. Additional dependencies
 The following is a list of apps lightly categorized that that I've found useful over the last 10 years using a mac.
 
+### 7. NVM
+  - Install NVM (Node Version Manager)
+
 #### Communication
   * [Slack](https://slack.com/)
 
