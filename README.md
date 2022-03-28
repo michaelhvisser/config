@@ -16,7 +16,7 @@ It also includes a lightweight list of the applications I depend on to survive a
 
 ## Checklist
 
-### 1. Prep Terminal.app
+### Prep Terminal.app
 - Load terminal theme from https://github.com/michaelhvisser/macos-terminal-themes/
 - Set default monospace font to [Source Code Pro](https://github.com/adobe-fonts/source-code-pro/releases)
 - Install [Homebrew](#Terminal)
@@ -50,16 +50,16 @@ https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
     ```
 - Install git-completion
 
-### 2. Secure Git(Hub) access
+### Secure Git(Hub) access
 
 - [Generate new SSH key](https://help.github.com/articles/generating-ssh-keys/)
 - [Generate an access token](https://help.github.com/articles/creating-an-access-token-for-command-line-use/) for Terminal to auth your GitHub account when 2FA is enabled.
 
-### 3. Setup VSCode
+### Setup VSCode
 Download VSCode
 Install Python Tools
 
-### 4. Setup Ruby
+### Setup Ruby
 - Install rbenv via Homebrew: `brew install rbenv`.
 - Download a version of Ruby via rbenv (e.g., `rbenv install 2.2.3`). See <https://gorails.com/setup/osx/10.11-el-capitan>.
 - Make it the global version of Ruby: `rbenv global 2.2.3`.
@@ -67,13 +67,18 @@ Install Python Tools
 
 *Installing and managing Ruby with rbenv allows us to specify versions of Ruby on a per-project basis. It also means we can avoid running sudo commands for installing gems and more as it's not affecting OS X's system Ruby.*
 
-### 5. Setup Python
+### Setup Python
   - Install python3 via Homebrew: `brew install python3`.
 
-### 6. Additional dependencies
+### Setup PHP | Laravel
+  - `brew install PHP`
+  - `brew install mysql`
+  - install composer https://getcomposer.org/download/
+
+### Additional dependencies
 The following is a list of apps lightly categorized that that I've found useful over the last 10 years using a mac.
 
-### 7. NVM
+### NVM
   - Install NVM (Node Version Manager)
 
 #### Communication
