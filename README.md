@@ -73,7 +73,7 @@ Install Python Tools
 ### Setup PHP | Laravel
   - `brew install PHP`
   - `brew install mysql`
-  - install composer https://getcomposer.org/download/
+  - Install composer https://getcomposer.org/download/
 
 ### Additional dependencies
 The following is a list of apps lightly categorized that that I've found useful over the last 10 years using a mac.
