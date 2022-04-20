@@ -101,6 +101,7 @@ The following is a list of apps lightly categorized that that I've found useful 
 
 #### Developer
   * [Postman] (https://www.getpostman.com/)
+  * [AWS CLI] (https://aws.amazon.com/cli/)
 
 #### Terminal
   * [Homebrew](http://brew.sh) (`/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`)
