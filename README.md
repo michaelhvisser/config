@@ -98,6 +98,7 @@ The following is a list of apps lightly categorized that that I've found useful 
 
 #### Productivity
   * [1Password](https://agilebits.com/onepassword/)
+  * [Karabiner](https://karabiner-elements.pqrs.org)
 
 #### Developer
   * [Postman] (https://www.getpostman.com/)
