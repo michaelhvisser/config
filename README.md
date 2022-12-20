@@ -4,51 +4,7 @@
 
 It also includes a lightweight list of the applications I depend on to survive a day of computer use.
 
-## Contents
-
-| File | Description |
-| --- | --- |
-| `.bash-profile` | Customizes the Terminal.app prompt and echoes the currently checked out Git branch. |
-| `.gitconfig` | Global Git configuration to specify my name and email, shortcuts, colors, and more. |
-| `.gitignore` | The git ignore file I use. |
-| `.gitexcludes` | Quick fix to always ignore DS_Store |
-| `.powconfig` | My pow configuration file. |
-
 ## Checklist
-
-### Prep Terminal.app
-- Load terminal theme from https://github.com/michaelhvisser/macos-terminal-themes/
-- Set default monospace font to [Source Code Pro](https://github.com/adobe-fonts/source-code-pro/releases)
-- Install [Homebrew](#Terminal)
-
-https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
-- Clone `https://github.com/jonathansimmons/config`
-  - Create a symlink to your `.bash_profile`
-    ```
-      $ cd ~
-      $ ln -s <path/to/config/repo/.bash_profile>
-    ```
-  - Create a symlink to your `.gitconfig`
-    ```
-      $ cd ~
-      $ ln -s <path/to/config/repo/.gitconfig>
-    ```
-  - Create a symlink to your `.gitignore`
-    ```
-      $ cd ~
-      $ ln -s <path/to/config/repo/.gitignore>
-    ```
-  - Create a symlink to your `.gitignore`
-    ```
-      $ cd ~
-      $ ln -s <path/to/config/repo/.gitexcludes>
-    ```
-  - Create a symlink to your `.powconfig`
-    ```
-      $ cd ~
-      $ ln -s <path/to/config/repo/.powconfig>
-    ```
-- Install git-completion
 
 ### Secure Git(Hub) access
 
@@ -83,22 +39,11 @@ The following is a list of apps lightly categorized that that I've found useful 
 
 #### Communication
   * [Slack](https://slack.com/)
-
-#### Email
-  * Airmail 
-
-#### File Storage
-  * [Dropbox](http://dropbox.com)
-  * [Box](http://box.com)
-
-#### Backup
-  * Time Machine
-
+  
 #### Personal
 
 #### Productivity
   * [1Password](https://agilebits.com/onepassword/)
-  * [Karabiner](https://karabiner-elements.pqrs.org)
 
 #### Developer
   * [Postman] (https://www.getpostman.com/)
