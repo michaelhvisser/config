@@ -36,6 +36,9 @@ The following is a list of apps lightly categorized that that I've found useful 
 
 ### NVM
   - Install NVM (Node Version Manager)
+  
+### Docker
+  - Install docker https://www.docker.com/products/docker-desktop/
 
 #### Communication
   * [Slack](https://slack.com/)
