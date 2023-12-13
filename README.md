@@ -57,6 +57,7 @@ The following is a list of apps lightly categorized that that I've found useful 
   * mysql `brew install mysql`
   * postgres `brew install postgres`
   * yarn `brew install yarn`
+  * ansible `brew install ansible`
   
   * Installing ZSH (and the best add ons)
       Change shell to zsh
